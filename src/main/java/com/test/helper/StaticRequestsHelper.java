@@ -19,6 +19,7 @@ import org.json.JSONObject;
  * @author kentvanlim
  */
 public class StaticRequestsHelper {
+
     static VariableSetup set = new VariableSetup();
     private static ObjectMapper objectMapper = new ObjectMapper();
 
@@ -53,7 +54,7 @@ public class StaticRequestsHelper {
         return jsonString;
     }
 
-    public static String post(Object body, String url,int statusCode) throws JsonProcessingException {
+    public static String post(Object body, String url, int statusCode) throws JsonProcessingException {
         String response = "";
         try {
             response = given()
@@ -76,10 +77,8 @@ public class StaticRequestsHelper {
         JSONObject jObj = new JSONObject(jsonString);
         Object title = jObj.get("title");
         Object id = jObj.get("id");
-        Object body = jObj.get("title");
-        
-        if (id.equals(set.inputPost().getId()) && title.equals(set.inputPost().getTitle()) && body.equals(set.inputPost().getBody())) 
-        {
+        Object body = jObj.get("body");
+        if (id.equals(set.inputPost().getId()) && title.equals(set.inputPost().getTitle()) && body.equals(set.inputPost().getBody())) {
             jsonString = "Valid";
         } else {
             jsonString = "Invalid";

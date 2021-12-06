@@ -5,17 +5,19 @@
 package com.test.variable;
 
 import com.test.wrapper.PostWrapper;
+import static java.lang.Math.random;
 
 /**
  *
  * @author kentvanlim
  */
 public class VariableSetup {
+
     PostWrapper input;
     public PostWrapper inputPost() {
         input = new PostWrapper();
-        input.setBody("Lorem Ipsum");
-        input.setTitle("Lorem Ipsum");
+        input.setBody("Post that contains characters");
+        input.setTitle("My first post");
         input.setId(120);
         return input;
     }

@@ -2,28 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ApiTest" duration-ms="3479" started-at="2021-12-03T03:44:19 WIB" finished-at="2021-12-03T03:44:22 WIB">
+  <suite name="ApiTest" duration-ms="3765" started-at="2021-12-06T11:19:39 WIB" finished-at="2021-12-06T11:19:43 WIB">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3479" started-at="2021-12-03T03:44:19 WIB" finished-at="2021-12-03T03:44:22 WIB">
+    <test name="Command line test" duration-ms="3765" started-at="2021-12-06T11:19:39 WIB" finished-at="2021-12-06T11:19:43 WIB">
       <class name="ApiTest">
-        <test-method status="PASS" signature="initiateTest()[pri:0, instance:ApiTest@5cb9f472]" name="initiateTest" is-config="true" duration-ms="678" started-at="2021-12-03T03:44:19 WIB" finished-at="2021-12-03T03:44:19 WIB">
+        <test-method status="PASS" signature="initiateTest()[pri:0, instance:ApiTest@5cb9f472]" name="initiateTest" is-config="true" duration-ms="683" started-at="2021-12-06T11:19:39 WIB" finished-at="2021-12-06T11:19:40 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateTest -->
-        <test-method status="PASS" signature="testGet()[pri:0, instance:ApiTest@5cb9f472]" name="testGet" duration-ms="1751" started-at="2021-12-03T03:44:19 WIB" finished-at="2021-12-03T03:44:21 WIB">
+        <test-method status="PASS" signature="testGet()[pri:0, instance:ApiTest@5cb9f472]" name="testGet" duration-ms="1906" started-at="2021-12-06T11:19:40 WIB" finished-at="2021-12-06T11:19:42 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ApiTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="298" started-at="2021-12-03T03:44:21 WIB" finished-at="2021-12-03T03:44:21 WIB">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ApiTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="337" started-at="2021-12-06T11:19:42 WIB" finished-at="2021-12-06T11:19:42 WIB">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGet status=SUCCESS method=ApiTest.testGet()[pri:0, instance:ApiTest@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testPost()[pri:0, instance:ApiTest@5cb9f472]" name="testPost" duration-ms="711" started-at="2021-12-03T03:44:21 WIB" finished-at="2021-12-03T03:44:22 WIB">
+        <test-method status="PASS" signature="testPost()[pri:0, instance:ApiTest@5cb9f472]" name="testPost" duration-ms="804" started-at="2021-12-06T11:19:42 WIB" finished-at="2021-12-06T11:19:43 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ApiTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="16" started-at="2021-12-03T03:44:22 WIB" finished-at="2021-12-03T03:44:22 WIB">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ApiTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="10" started-at="2021-12-06T11:19:43 WIB" finished-at="2021-12-06T11:19:43 WIB">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPost status=SUCCESS method=ApiTest.testPost()[pri:0, instance:ApiTest@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

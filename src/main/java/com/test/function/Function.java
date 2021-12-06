@@ -26,7 +26,6 @@ public class Function {
         try {
             jsonResult = StaticRequestsHelper.post(set.inputPost(), "", 200);               
              result =  StaticRequestsHelper.generateReturnResultPost(jsonResult);
-            System.out.println(result);
         } catch (JsonProcessingException jsonEx) {
             jsonEx.printStackTrace();
         }
@@ -44,7 +43,6 @@ public class Function {
         } catch (JsonProcessingException jsonEx) {
             jsonEx.printStackTrace();
         }
-
           return result;
     }
   
